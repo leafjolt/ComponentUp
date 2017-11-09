@@ -1,5 +1,3 @@
-$("#myUL").hide();
-$(".no").hide();
 function searchFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById('searching');
@@ -14,10 +12,7 @@ function searchFunction() {
         li[i].style.display = "";
       } else {
         li[i].style.display = "none";
-        //$(".no").show();
       }
     }
 }
-function euphrates() {
-  $("#myUL").show();
-}
+
