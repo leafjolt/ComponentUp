@@ -1,0 +1,22 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+* {
+  font-family: Raleway !important;
+}
+.list {
+  list-style: none;
+}
+.n:hover {
+  text-decoration: none;;
+}
+.n {
+  color: black;
+  font-size: 20px;
+}
+.t {
+  background-color: #f7f7f7;
+  width: 50%;
+  padding: 15px;
+  margin: 20px;
+} 
+
