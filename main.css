@@ -20,5 +20,5 @@
     src: url(/fonts/avenir-light.otf);
 }
 .title {
-  font-family: Quicksand !important;
+  font-family: "Quicksand", "sans-serif" !important;
 }
