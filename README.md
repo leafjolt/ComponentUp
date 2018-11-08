@@ -1,2 +1,2 @@
 # ComponentUp
-A website that helps coders by generating code to copy &amp; paste.
+A website that helps coders by generating code for different elements in HTML, CSS, and Javascript to copy &amp; paste.
