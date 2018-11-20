@@ -17,5 +17,5 @@ function searchFunction() {
 }
 function clearSearch() {
     var input = document.getElementById('searching');
-    input.value = "The value";
+    input.value = null;
 }
