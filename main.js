@@ -15,4 +15,7 @@ function searchFunction() {
       }
     }
 }
-
+function clearSearch() {
+    var input = document.getElementById('searching');
+    input.value = "";
+}
