@@ -40,11 +40,11 @@
 
         <div class="uk-navbar-item uk-width-expand">
             <form class="uk-search uk-search-navbar uk-width-1-1">
-                <input onclick="clearSearch()" class="uk-search-input" type="search" placeholder="Search..." id="searching" onkeyup="searchFunction()" autofocus>
+                <input class="uk-search-input" type="search" placeholder="Search..." id="searching" onkeyup="searchFunction()" autofocus>
             </form>
         </div>
 
-        <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+        <a onclick="clearSearch()" class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
 
     </div>
    </nav>
