@@ -17,5 +17,5 @@ function searchFunction() {
 }
 function clearSearch() {
     var input = document.getElementById('searching');
-    input.setAttribute('value','My default value');
+    input.value = "The value";
 }
