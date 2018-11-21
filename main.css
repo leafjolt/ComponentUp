@@ -20,9 +20,9 @@
     src: url(/fonts/avenir-light.otf);
 }
 @font-face {
-    font-family: "Anders";
-    src: url(/fonts/Anders.ttf);
+    font-family: "Meedori Bold";
+    src: url(/fonts/meedori-bold.ttf);
 }
 .title {
-  font-family: "Anders" !important;
+  font-family: "Meedori Bold" !important;
 }
