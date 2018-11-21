@@ -19,6 +19,10 @@
     font-family: "Avenir Light";
     src: url(/fonts/avenir-light.otf);
 }
+@font-face {
+    font-family: "Anders";
+    src: url(/fonts/Anders.ttf);
+}
 .title {
-  font-family: "Quicksand", "sans-serif" !important;
+  font-family: "Anders" !important;
 }
