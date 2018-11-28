@@ -22,3 +22,8 @@ function clearSearch() {
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
+function dropFunction() {
+    var element = document.getElementsByTagName("select");
+    element.classList.add("uk-select");
+}
+dropFunction();
