@@ -16,8 +16,8 @@ function searchFunction() {
     }
 }
 function clearSearch() {
-    var input = document.getElementById('searching');
-    input.value = "";
+    var search = document.getElementById('searching');
+    search.value = "";
 }
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
