@@ -9,7 +9,7 @@
 }
 .n:hover {
   text-decoration: none;
-//  color: black !important;
+  color: inherit !important;
 }
 .n {
   color: black;
