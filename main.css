@@ -9,7 +9,7 @@
 }
 .n:hover {
   text-decoration: none;
-  color: black !important;
+//  color: black !important;
 }
 .n {
   color: black;
@@ -25,4 +25,5 @@
 }
 .title {
   font-family: "Meedori Bold" !important;
+  font-color: black !important;
 }
