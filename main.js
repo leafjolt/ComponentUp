@@ -18,6 +18,7 @@ function searchFunction() {
 function clearSearch() {
     var search = document.getElementById('searching');
     search.value = "";
+    searchFunction();
 }
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
