@@ -17,16 +17,83 @@
 <link rel="stylesheet" href="main.css">
   </head>
  <body>
+    <style>
+    .onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #000000; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "DARK";
+    padding-left: 10px;
+    background-color: #000000; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "LIGHT";
+    padding-right: 10px;
+    background-color: #FFFFFF; color: #000000;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #000000; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+    </style>
+  </head>
+ <body>
    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-   <nav class="uk-navbar uk-navbar-container uk-margin">
+   <nav class="uk-navbar uk-navbar-container uk-margin" uk-navbar="mode: click">
      <div class="uk-navbar-left nav-overlay">
 
-       <a class="uk-navbar-item uk-logo title" style="font-family:Quicksand" href="index.html">COMPONENTUP</a>
+       <a class="uk-navbar-item uk-logo title" style="font-family:Meedori Bold; font-color:black;" href="index.html">COMPONENTUP</a>
 
        <ul class="uk-navbar-nav">
-         <li><a href="index.html">Home</a></li>
+         <li class="uk-active"><a href="index.html">Home</a></li>
          <li><a href="item.html">Item</a></li>
-         <li class="uk-active"><a href="contact.html">Contact</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <li>
+                <a href="#" uk-icon="icon: settings"></a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                              <li class="uk-active"><div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+    <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+</div></li> 
+                      <li class="uk-nav-divider"></li>
+                        <li class="uk-active" style="margin-top: 10px;"><div id="google_translate_element"></div></li>  
+                    </ul>
+                </div>
+         </li>
        </ul>
 
      </div>
