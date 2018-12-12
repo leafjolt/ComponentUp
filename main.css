@@ -27,40 +27,6 @@
   font-family: "Meedori Bold" !important;
   font-color: black !important;
 }
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 15px;
-  height: 15px;
-}
-::-webkit-scrollbar-button {
-  width: 15px;
-  height: 15px;
-}
-::-webkit-scrollbar-thumb {
-  background: lightgray;
-  border: 0px none #ffffff;
-  border-radius: 0px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: lightgray;
-}
-::-webkit-scrollbar-thumb:active {
-  background: lightgray;
-}
-::-webkit-scrollbar-track {
-  background: darkgray;
-  border: 0px none #ffffff;
-  border-radius: 0px;
-}
-::-webkit-scrollbar-track:hover {
-  background: darkgray;
-}
-::-webkit-scrollbar-track:active {
-  background: darkgray;
-}
-::-webkit-scrollbar-corner {
-  background: transparent;
-}
 /* Dark Mode Toggle Code */
 .onoffswitch {
     position: relative; width: 90px;
