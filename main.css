@@ -27,7 +27,7 @@
   font-family: "Meedori Bold" !important;
   font-color: black !important;
 }
-body {
+.darkmode {
   background-color: black !important;
 }  
 /* Dark Mode Toggle Code */
