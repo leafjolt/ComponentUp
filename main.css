@@ -28,7 +28,7 @@
   font-color: black !important;
 }
 .darkmode {
-  background-color: black !important;
+  background-color: darkgray !important;
 }  
 /* Dark Mode Toggle Code */
 .onoffswitch {
