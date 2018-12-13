@@ -49,6 +49,5 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
 function darkmode() {
-    var whole = document.getElementsByTagName('body');
-    whole.classList.add("darkmode");
+    document.getElementById("body").style.background = "#1f1c19";
 }
