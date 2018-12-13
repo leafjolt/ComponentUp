@@ -49,7 +49,7 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
 function darkmode() {
-    var checky = document.getElementById('myonoffswitch').checked;
+    var checky = document.getElementById("myonoffswitch").checked;
     //document.getElementById("body").style.filter = "invert(100%)";
     if(checky==true) {
     document.getElementById("body").style.filter = "invert(100%)";
