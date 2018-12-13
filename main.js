@@ -54,8 +54,10 @@ function darkmode() {
     if(checky==true) {
     document.getElementById("body").style.filter = "invert(98%)";
     images.style.filter = "invert(98%)";
+    document.getElementById("body").style.background = "black";
     } else {
     document.getElementById("body").style.filter = "invert(0%)";
     images.style.filter = "invert(98%)";
+    document.getElementById("body").style.background = "white";
     }
 }
