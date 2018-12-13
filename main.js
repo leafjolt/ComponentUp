@@ -56,6 +56,6 @@ function darkmode() {
     images.style.filter = "invert(98%)";
     } else {
     document.getElementById("body").style.filter = "invert(0%)";
-    images.style.filter = "invert(0%)";
+    images.style.filter = "invert(98%)";
     }
 }
