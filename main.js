@@ -51,10 +51,9 @@ function googleTranslateElementInit() {
 function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
     var images = document.getElementsByClassName("uk-card-media-top");
-    //document.getElementById("body").style.filter = "invert(100%)";
     if(checky==true) {
     document.getElementById("body").style.filter = "invert(98%)";
-    images.style.filter = "invert(0%)";
+    images.style.filter = "invert(98%)";
     } else {
     document.getElementById("body").style.filter = "invert(0%)";
     images.style.filter = "invert(0%)";
