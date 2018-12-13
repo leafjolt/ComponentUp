@@ -52,7 +52,7 @@ function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
     //document.getElementById("body").style.filter = "invert(100%)";
     if(checky==true) {
-    document.getElementById("body").style.filter = "invert(100%)";
+    document.getElementById("body").style.filter = "invert(98%)";
     } else {
     document.getElementById("body").style.filter = "invert(0%)";
     }
