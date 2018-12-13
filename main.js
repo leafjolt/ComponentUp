@@ -49,9 +49,9 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
 function darkmode() {
-    var checky = $('.onoffswitch-checkbox').prop('checked');
+    var checky = document.getElementById('myonoffswitch').checked;
     //document.getElementById("body").style.filter = "invert(100%)";
-    if (checky=true) {
+    if(checky==true) {
     document.getElementById("body").style.filter = "invert(100%)";
     } else {
     document.getElementById("body").style.filter = "invert(0%)";
