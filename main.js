@@ -50,14 +50,17 @@ function googleTranslateElementInit() {
 }
 function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
-    var images = document.getElementsByClassName("uk-card-media-top");
     if(checky==true) {
     document.getElementById("body").style.filter = "invert(98%)";
-    images.style.filter = "invert(98%)";
+    for(var ii = 0;ii<images.length;ii++){
+    images[i].style.filter="invert(98%)";
+    }
     document.getElementById("body").style.background = "black";
     } else {
     document.getElementById("body").style.filter = "invert(0%)";
-    images.style.filter = "invert(98%)";
+    for(var ii = 0;ii<images.length;ii++){
+    images[i].style.filter="invert(98%)";
+    }
     document.getElementById("body").style.background = "white";
     }
 }
