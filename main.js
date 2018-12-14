@@ -60,7 +60,7 @@ function darkmode() {
     } else {
     document.getElementById("body").style.filter = "invert(0%)";
     for(var ii = 0;ii<images.length;ii++){
-    images[ii].style.filter="invert(98%)";
+    images[ii].style.filter="invert(0%)";
     }
     document.getElementById("body").style.background = "white";
     }
