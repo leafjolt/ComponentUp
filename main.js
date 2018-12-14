@@ -54,13 +54,13 @@ function darkmode() {
     if(checky==true) {
     document.getElementById("body").style.filter = "invert(98%)";
     for(var ii = 0;ii<images.length;ii++){
-    images[i].style.filter="invert(98%)";
+    images[ii].style.filter="invert(98%)";
     }
     document.getElementById("body").style.background = "black";
     } else {
     document.getElementById("body").style.filter = "invert(0%)";
     for(var ii = 0;ii<images.length;ii++){
-    images[i].style.filter="invert(98%)";
+    images[ii].style.filter="invert(98%)";
     }
     document.getElementById("body").style.background = "white";
     }
