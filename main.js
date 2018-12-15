@@ -65,14 +65,3 @@ function darkmode() {
     document.body.style.background = "white";
     }
 }
-customElements.define('dark-mode-switch', class extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = "<div class='onoffswitch'>
-    <input type='checkbox' onclick='darkmode()' name='onoffswitch' class='onoffswitch-checkbox' id='myonoffswitch'>
-    <label class='onoffswitch-label' for='myonoffswitch'>
-        <span class='onoffswitch-inner'></span>
-        <span class='onoffswitch-switch'></span>
-    </label>
-</div>";
-  }
-});
