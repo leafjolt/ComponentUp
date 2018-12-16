@@ -62,6 +62,6 @@ function darkmode() {
     for(var ii = 0;ii<images.length;ii++){
     images[ii].style.filter="invert(0%)";
     }
-    document.body.style.background = "white !important";
+    document.body.style.background = "white";
     }
 }
