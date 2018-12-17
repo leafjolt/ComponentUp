@@ -78,3 +78,11 @@
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
 }
+@keyframes forceYellow {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: black;
+  }
+}
