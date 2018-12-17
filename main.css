@@ -80,7 +80,7 @@
 }
 @keyframes forceYellow {
   from {
-    background-color: white;
+    background-color: black;
   }
   to {
     background-color: black !important;
