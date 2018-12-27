@@ -50,7 +50,7 @@ function googleTranslateElementInit() {
 }
 function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
-    var images = document.getElementsByClassName("uk-card-media-top");
+    var images = document.getElementsByClassName("nofilter");
     if(checky==true) {
     document.getElementById("body").style.filter = "invert(98%)";
     for(var ii = 0;ii<images.length;ii++){
