@@ -24,7 +24,7 @@ console.log('');
 if(tmp2==-1)
 break;
 for (i = 0; i < li.length; i++) {
-        if (!(li[i].getAttribute('data-search-tags').toUpperCase().indexOf(tfilter2) > -1)) {
+        if (!(li[i].getAttribute('keywords').toUpperCase().indexOf(tfilter2) > -1)) {
           li[i].style.display = "none";
         }
       }
