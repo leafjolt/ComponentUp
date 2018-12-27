@@ -56,7 +56,6 @@ function darkmode() {
     for(var ii = 0;ii<images.length;ii++){
     images[ii].style.filter="invert(98%)";
     }
-    //document.body.style.background = "black !important";
     document.body.style.animation = "1s linear infinite forceYellow";
     } else {
     document.getElementById("body").style.filter = "invert(0%)";
