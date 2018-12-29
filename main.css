@@ -27,6 +27,9 @@
 .nohover:hover {
   color: white !important;
 }
+.nohover {
+  color: white !important;
+}
 /* Dark Mode Toggle Code */
 .onoffswitch {
     position: relative; width: 90px;
