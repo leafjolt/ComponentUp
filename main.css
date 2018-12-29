@@ -27,9 +27,9 @@
   font-family: "Meedori Bold" !important;
   font-color: black !important;
 }
-.darkmode {
-  background-color: #1f1c19 !important;
-}  
+.nohover:hover {
+  color: white !important;
+}
 /* Dark Mode Toggle Code */
 .onoffswitch {
     position: relative; width: 90px;
