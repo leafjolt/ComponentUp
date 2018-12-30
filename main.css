@@ -80,9 +80,9 @@
 }
 @keyframes forceYellow {
   from {
-    background-color: black !important !important;
+    background-color: #515151 !important !important;
   }
   to {
-    background-color: black !important !important;
+    background-color: #515151 !important !important;
   }
 }
