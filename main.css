@@ -24,6 +24,10 @@
     font-family: "Campton Light";
     src: url(/fonts/campton-light.otf);
 }
+@font-face {
+    font-family: "Campton Bold";
+    src: url(/fonts/campton-bold.otf);
+}
 .title {
   font-family: "Meedori Bold" !important;
   font-color: black !important;
