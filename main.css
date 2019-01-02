@@ -1,5 +1,5 @@
 * {
-  font-family: "Avenir Light" !important;
+  font-family: "Campton Light" !important;
 }
 .list {
   list-style: none;
@@ -19,6 +19,10 @@
 @font-face {
     font-family: "Meedori Bold";
     src: url(/fonts/meedori-bold.ttf);
+}
+@font-face {
+    font-family: "Campton Light";
+    src: url(/fonts/campton-light.otf);
 }
 .title {
   font-family: "Meedori Bold" !important;
