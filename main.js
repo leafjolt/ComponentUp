@@ -52,16 +52,9 @@ function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
     var images = document.getElementsByClassName("nofilter");
     if(checky==true) {
-    document.getElementById("body").style.filter = "invert(100%)";
-    for(var ii = 0;ii<images.length;ii++){
-    images[ii].style.filter="invert(100%)";
-    }
-    document.body.style.animation = "1s linear infinite forceYellow";
-    } else {
-    document.getElementById("body").style.filter = "invert(0%)";
-    for(var ii = 0;ii<images.length;ii++){
-    images[ii].style.filter="invert(0%)";
-    }
-    document.body.style.background = "white";
+        document.body.style.background = "#4B4B4F !important";
+    }    
+    else {
+        document.body.style.background = "white !important";
     }
 }
