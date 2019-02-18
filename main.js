@@ -53,7 +53,7 @@ function darkmode() {
     var nofilter = $(".nofilter");
     if(checky==true) {
         document.getElementById("body").style.filter = "invert(90%)";
-        nofilter.style.filter = "invert(0%)";
+        document.querySelectorAll(".nofilter").style.filter = "invert(0%)";
     }    
     else {
         document.getElementById("body").style.filter = "invert(0%)";
