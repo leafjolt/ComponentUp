@@ -54,7 +54,7 @@ function darkmode() {
     if(checky==true) {
         document.body.style.background = "#4B4B4F !important";
     }    
-    else {
+    else if(checky==false) {
         document.body.style.background = "white !important";
     }
 }
