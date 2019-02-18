@@ -50,11 +50,11 @@ function googleTranslateElementInit() {
 }
 function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
-    var images = document.getElementsByClassName("nofilter");
+    var images = $(".nofilter");
     if(checky==true) {
-        document.getElementById("body").style.background = "#4B4B4F !important";
+        document.getElementById("body").style.filter = "invert(90%)";
     }    
-    else if(checky==false) {
-        document.getElementById("body").style.background = "white !important";
+    else {
+        document.getElementById("body").style.filter = "invert(0%)";
     }
 }
