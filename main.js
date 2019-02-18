@@ -50,9 +50,10 @@ function googleTranslateElementInit() {
 }
 function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
-    var images = $(".nofilter");
+    var nofilter = $(".nofilter");
     if(checky==true) {
         document.getElementById("body").style.filter = "invert(90%)";
+        nofilter.style.filter = "invert(0%)";
     }    
     else {
         document.getElementById("body").style.filter = "invert(0%)";
