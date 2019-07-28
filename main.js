@@ -50,10 +50,12 @@ function googleTranslateElementInit() {
 }
 function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
-    var nofilter = $(".nofilter");
+    var images = document.getElementsByClassName("nofilter");
     if(checky==true) {
         document.getElementById("body").style.filter = "invert(90%)";
-        document.querySelectorAll(".nofilter").style.filter = "invert(90%)";
+        for(var ii = 0;ii<images.length;ii++){
+          images[i].style.filter="invert(98%)";
+        }
     }    
     else {
         document.getElementById("body").style.filter = "invert(0%)";
