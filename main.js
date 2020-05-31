@@ -53,7 +53,7 @@ function darkmode() {
     var images = document.getElementsByClassName("nofilter");
     if(checky==true) {
         document.getElementById("body").style.background = "black";
-        $("nav").addClass("uk-background-secondary");
+        $("#navbarcol").addClass("uk-background-secondary");
         $("nav").addClass("uk-light");
        // for(var ii = 0;ii<images.length;ii++){
         //  images[i].style.filter="invert(98%)";
