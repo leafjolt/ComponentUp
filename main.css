@@ -4,6 +4,9 @@
 .list {
   list-style: none;
 }
+.html {
+  color: initial !important;
+}
 .n:hover {
   text-decoration: none;
   /*color: initial !important;*/
