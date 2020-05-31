@@ -54,7 +54,7 @@ function darkmode() {
     if(checky==true) {
         document.getElementById("body").style.background = "black";
         $("#navbarcol").addClass("uk-background-secondary");
-        //$("nav").addClass("uk-light");
+        $("nav").addClass("uk-light");
         $(".html").addClass("uk-card-secondary");
        // for(var ii = 0;ii<images.length;ii++){
         //  images[i].style.filter="invert(98%)";
