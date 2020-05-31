@@ -62,5 +62,8 @@ function darkmode() {
     }    
     else {
         document.getElementById("body").style.background = "white";
+        $("#navbarcol").removeClass("uk-background-secondary");
+        $("nav").removeClass("uk-light");
+        $(".html").removeClass("uk-card-secondary");
     }
 }
