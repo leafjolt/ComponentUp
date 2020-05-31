@@ -6,7 +6,7 @@
 }
 .n:hover {
   text-decoration: none;
-  color: initial !important;
+  /*color: initial !important;*/
 }
 .n {
   /*color: black;*/
