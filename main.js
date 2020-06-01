@@ -61,6 +61,7 @@ if (window.matchMedia &&
 }
 function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
+    console.log(checky);
     var images = document.getElementsByClassName("nofilter");
     if(checky==true) {
         document.getElementById("body").style.background = "black";
