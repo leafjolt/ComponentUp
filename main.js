@@ -59,7 +59,7 @@ if (window.matchMedia &&
   document.getElementById("myonoffswitch").checked = true;
     console.log("dark");
 }
-function darkmode() {
+//function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
     console.log(checky);
     var images = document.getElementsByClassName("nofilter");
@@ -77,4 +77,4 @@ function darkmode() {
         $(".html").removeClass("uk-card-secondary");
         document.querySelector("nav").style.background = "#f8f8f8 !important";
     }
-}
+//}
