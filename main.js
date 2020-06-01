@@ -1,3 +1,4 @@
+console.log("loaded");
 searchFunction();
 function searchFunction() {
 var input,filter,temp,tfilter,tmp2,tfilter2,ii,i,li,ul;
