@@ -48,16 +48,16 @@ function clearSearch() {
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
-window.matchMedia('(prefers-color-scheme: dark)')
-      .addEventListener('change', event => {
-  if (event.matches) {
-    //dark mode
-      document.getElementById("myonoffswitch").checked = true;
-  } else {
-    //light mode
-      document.getElementById("myonoffswitch").checked = false;
-  }
-})
+if (window.matchMedia && 
+    window.matchMedia('(prefers-color-scheme: light)').matches) {
+  document.getElementById("myonoffswitch").checked = false;
+    console.log("light");
+}
+if (window.matchMedia && 
+    window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  document.getElementById("myonoffswitch").checked = true;
+    console.log("dark");
+}
 function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
     var images = document.getElementsByClassName("nofilter");
