@@ -67,13 +67,13 @@ function darkmode() {
         document.getElementById("body").style.background = "black";
         $("nav").addClass("uk-light");
         $(".html").addClass("uk-card-secondary");
-        $("nav").style.background = "#222 !important";
+        document.getElementById("nav").style.background = "#222 !important";
     }    
     else {
         document.getElementById("body").style.background = "white";
         $("nav").removeClass("uk-light");
         $(".html").removeClass("uk-card-secondary");
-        $("nav").style.background = "#f8f8f8 !important";
+        document.getElementById("nav").style.background = "#f8f8f8 !important";
     }
 }
 darkmode();
