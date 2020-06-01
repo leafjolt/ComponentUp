@@ -1,6 +1,12 @@
 * {
   font-family: "Campton Light" !important;
 }
+.backlight {
+  background: #f8f8f8 !important;
+}
+.backdark {
+  background: #222 !important;
+}
 .list {
   list-style: none;
 }
