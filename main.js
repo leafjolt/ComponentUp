@@ -59,22 +59,21 @@ if (window.matchMedia &&
   document.getElementById("myonoffswitch").checked = true;
     console.log("dark");
 }
-//function darkmode() {
+function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
     console.log(checky);
     var images = document.getElementsByClassName("nofilter");
     if(checky==true) {
         document.getElementById("body").style.background = "black";
-        //$("#navbarcol").addClass("uk-section-secondary");
         $("nav").addClass("uk-light");
         $(".html").addClass("uk-card-secondary");
         document.querySelector("nav").style.background = "#222 !important";
     }    
     else {
         document.getElementById("body").style.background = "white";
-        //$("#navbarcol").removeClass("uk-section-secondary");
         $("nav").removeClass("uk-light");
         $(".html").removeClass("uk-card-secondary");
         document.querySelector("nav").style.background = "#f8f8f8 !important";
     }
-//}
+}
+darkmode();
