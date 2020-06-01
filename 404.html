@@ -22,7 +22,7 @@ permalink: 404.html
   document.getElementById("body").style.background = "white";
   $("div").removeClass("uk-background-secondary");
   $("div").removeClass("uk-light");
-  document.querySelector("h3").style.color = "black !important";
+  $("h3").style.color = "black !important";
     console.log("light");
 }
 if (window.matchMedia && 
@@ -30,7 +30,7 @@ if (window.matchMedia &&
   document.getElementById("body").style.background = "black";
   $("div").addClass("uk-background-secondary");
   $("div").addClass("uk-light");
-  document.querySelector("h3").style.color = "white !important";
+  $("h3").style.color = "white !important";
     console.log("dark");
 }
    </script>
