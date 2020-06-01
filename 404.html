@@ -12,7 +12,7 @@ permalink: 404.html
   </head>
  <body id="body">
    <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m uk-align-center">
-     <h3 class="uk-card-title">404 Error</h3><p>The page you are looking for has been moved or does not exist. Please return to our <a href="https://componentup.github.io/">home page</a>.</p>
+     <h3 id="h3" class="uk-card-title">404 Error</h3><p>The page you are looking for has been moved or does not exist. Please return to our <a href="https://componentup.github.io/">home page</a>.</p>
 </div>
 <br>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -22,7 +22,7 @@ permalink: 404.html
   document.getElementById("body").style.background = "white";
   $("div").removeClass("uk-background-secondary");
   $("div").removeClass("uk-light");
-  $("h3").style.color = "black !important";
+  document.getElementById("h3").style.color = "black !important";
     console.log("light");
 }
 if (window.matchMedia && 
@@ -30,7 +30,7 @@ if (window.matchMedia &&
   document.getElementById("body").style.background = "black";
   $("div").addClass("uk-background-secondary");
   $("div").addClass("uk-light");
-  $("h3").style.color = "white !important";
+  document.getElementById("h3").style.color = "white !important";
     console.log("dark");
 }
    </script>
