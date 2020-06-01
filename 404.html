@@ -19,15 +19,15 @@ permalink: 404.html
      if (window.matchMedia && 
     window.matchMedia('(prefers-color-scheme: light)').matches) {
   document.getElementById("body").style.background = "white";
-  $(".uk-card").removeClass("uk-background-secondary");
-  $(".uk-card").removeClass("uk-light");
+  $("div").removeClass("uk-background-secondary");
+  $("div").removeClass("uk-light");
     console.log("light");
 }
 if (window.matchMedia && 
     window.matchMedia('(prefers-color-scheme: dark)').matches) {
   document.getElementById("body").style.background = "black";
-  $(".uk-card").addClass("uk-background-secondary");
-  $(".uk-card").addClass("uk-light");
+  $("div").addClass("uk-background-secondary");
+  $("div").addClass("uk-light");
     console.log("dark");
 }
    </script>
