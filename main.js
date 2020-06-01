@@ -68,14 +68,13 @@ function darkmode() {
         //$("#navbarcol").addClass("uk-section-secondary");
         $("nav").addClass("uk-light");
         $(".html").addClass("uk-card-secondary");
-       // for(var ii = 0;ii<images.length;ii++){
-        //  images[i].style.filter="invert(98%)";
-       // }
+        document.querySelector("nav").style.background = "#222 !important";
     }    
     else {
         document.getElementById("body").style.background = "white";
         //$("#navbarcol").removeClass("uk-section-secondary");
         $("nav").removeClass("uk-light");
         $(".html").removeClass("uk-card-secondary");
+        document.querySelector("nav").style.background = "#f8f8f8 !important";
     }
 }
