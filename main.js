@@ -63,7 +63,7 @@ function darkmode() {
     var images = document.getElementsByClassName("nofilter");
     if(checky==true) {
         document.getElementById("body").style.background = "black";
-        $("#navbarcol").addClass("uk-section-secondary");
+        //$("#navbarcol").addClass("uk-section-secondary");
         $("nav").addClass("uk-light");
         $(".html").addClass("uk-card-secondary");
        // for(var ii = 0;ii<images.length;ii++){
@@ -72,7 +72,7 @@ function darkmode() {
     }    
     else {
         document.getElementById("body").style.background = "white";
-        $("#navbarcol").removeClass("uk-section-secondary");
+        //$("#navbarcol").removeClass("uk-section-secondary");
         $("nav").removeClass("uk-light");
         $(".html").removeClass("uk-card-secondary");
     }
