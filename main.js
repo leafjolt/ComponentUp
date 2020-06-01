@@ -48,6 +48,16 @@ function clearSearch() {
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
+window.matchMedia('(prefers-color-scheme: dark)')
+      .addEventListener('change', event => {
+  if (event.matches) {
+    //dark mode
+      document.getElementById("myonoffswitch").checked = true;
+  } else {
+    //light mode
+      document.getElementById("myonoffswitch").checked = false;
+  }
+})
 function darkmode() {
     var checky = document.getElementById("myonoffswitch").checked;
     var images = document.getElementsByClassName("nofilter");
