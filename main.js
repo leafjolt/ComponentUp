@@ -68,12 +68,14 @@ function darkmode() {
         $("nav").addClass("uk-light");
         $(".html").addClass("uk-card-secondary");
         $("nav").addClass("backdark");
+        $(".uk-modal-full").addClass("uk-background-secondary");
     }    
     else {
         document.getElementById("body").style.background = "white";
         $("nav").removeClass("uk-light");
         $(".html").removeClass("uk-card-secondary");
         $("nav").removeClass("backdark");
+        $(".uk-modal-full").removeClass("uk-background-secondary");
     }
 }
 darkmode();
