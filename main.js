@@ -69,6 +69,8 @@ function darkmode() {
         $(".html").addClass("uk-card-secondary");
         $("nav").addClass("backdark");
         $(".uk-modal-dialog").addClass("uk-background-secondary");
+        $(".uk-modal-close-full").addClass("uk-background-secondary");
+        $(".uk-modal-dialog").addClass("uk-light);
     }    
     else {
         document.getElementById("body").style.background = "white";
@@ -76,6 +78,8 @@ function darkmode() {
         $(".html").removeClass("uk-card-secondary");
         $("nav").removeClass("backdark");
         $(".uk-modal-dialog").removeClass("uk-background-secondary");
+        $(".uk-modal-close-full").removeClass("uk-background-secondary");
+        $(".uk-modal-dialog").removeClass("uk-light);
     }
 }
 darkmode();
