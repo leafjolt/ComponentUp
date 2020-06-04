@@ -92,7 +92,7 @@
                 <div>
                   <div class=uk-margin>
                   <label for="image-src">Image Address
-                  <input type="text" name="image-src" placeholder="Image address..." class="uk-input image-src">
+                  <input type="text" name="image-src" placeholder="Image address..." class="uk-input image-src" oninput="image()">
                   </label>
                   </div>
                 </div>
@@ -103,7 +103,7 @@
                 </div>
               </div>
             </div>
-      <script>var imagesrc = $(".image-src");var imagecode = $(".image-code");imagecode.html('<img src="' + imagesrc.val() + '">')</script>
+      <script>var imagesrc = $(".image-src");var imagecode = $(".image-code");function image() {imagecode.html('<img src="' + imagesrc.val() + '">')}</script>
     </div>
 </div>
            <li keywords=" css customize customization pictures images component" class="t nofilter">
