@@ -90,18 +90,19 @@
               <div class="uk-column-1-2">
                 <div>
                   <div class=uk-margin>
-                  <label for="src">Image Address
-                  <input type="text" name="src" placeholder="Image address..." class="uk-input">
+                  <label for="image-src">Image Address
+                  <input type="text" name="image-src" placeholder="Image address..." class="uk-input image-src">
                   </label>
                   </div>
                 </div>
                 <div>
-                  <label for="code">Copy the code displayed here.
-                  <textarea style="font-family: Courier New !important" class="uk-textarea" name="code" disabled>&lt;img src=<span>""</span>&gt;</textarea>
+                  <label for="image-code">Copy the code displayed here.
+                  <textarea style="font-family: Courier New !important" class="uk-textarea image-code" name="image-code" disabled></textarea>
                   </label>
                 </div>
               </div>
             </div>
+      <script>var imagesrc = $(".image-src");var imagecode = $(".image-code");imagecode.innerHTML = '<img src="' + imagesrc.value + '">';</script>
     </div>
 </div>
            <li keywords=" css customize customization pictures images component" class="t nofilter">
