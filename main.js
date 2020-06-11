@@ -71,6 +71,7 @@ function darkmode() {
         $(".uk-modal-dialog").addClass("uk-background-secondary");
         $(".uk-modal-close-full").addClass("uk-background-secondary");
         $(".uk-modal-dialog").addClass("uk-light");
+        $(".uk-navbar-dropdown").addClass("uk-background-secondary");
     }    
     else {
         document.getElementById("body").style.background = "white";
@@ -80,6 +81,7 @@ function darkmode() {
         $(".uk-modal-dialog").removeClass("uk-background-secondary");
         $(".uk-modal-close-full").removeClass("uk-background-secondary");
         $(".uk-modal-dialog").removeClass("uk-light");
+        $(".uk-navbar-dropdown").removeClass("uk-background-secondary");
     }
 }
 darkmode();
