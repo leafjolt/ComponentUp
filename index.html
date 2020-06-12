@@ -93,12 +93,12 @@
                   <div class=uk-margin>
                   <h4>Fill in the fields below.</h4>
                   <label for="image-src">Image Address
-                  <input style="font-family:Courier New !important" type="text" name="image-src" placeholder="Image address..." class="uk-input image-src" oninput="image()">
+                  <input id="image-src" style="font-family:Courier New !important" type="text" name="image-src" placeholder="Image address..." class="uk-input image-src" oninput="image()">
                   </label>
                   </div>
                 </div>
                 <div>
-                  <h4>Copy the code displayed here.</h4>
+                  <h4>Copy the code displayed here.</h4><button class="imagecopy uk-button" data-clipboard-target="#image-src">COPY TO CLIPBOARD</button>
                   <textarea style="font-family: Courier New !important" class="uk-textarea image-code" name="image-code" disabled></textarea>
                 </div>
               </div>
