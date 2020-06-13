@@ -141,7 +141,7 @@
         <div class="html uk-card uk-card-default uk-card-hover">
             <div class="uk-card-body">
               <div class="uk-card-badge uk-label nofilter">HTML</div>
-              <a href="https://bing.com" class="n">
+              <a href="#video-component-modal" class="n" uk-toggle>
                 <div class="uk-card-media-top nofilter">
                 <img src="pictures/video.jpg" alt="video">
             </div>
@@ -150,6 +150,30 @@
     </a>
         </div>
         </li>
+       <div id="video-component-modal" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-padding-large">
+                <h1>Video Component</h1>
+              <h3>Generate code to put a video on your site.</h3>
+              <div class="uk-column-1-2@s">
+                <div>
+                  <div class=uk-margin>
+                  <h4>Fill in the fields below.</h4>
+                  <label for="video-src">Video Address
+                  <input style="font-family:Courier New !important" type="text" name="video-src" placeholder="Video address..." class="uk-input video-src" oninput="video()">
+                  </label>
+                  </div>
+                </div>
+                <div>
+                  <h4>Copy the code displayed here.</h4>
+                  <textarea style="font-family: Courier New !important" class="uk-textarea video-code" name="video-code" disabled></textarea>
+                </div>
+              </div>
+            </div>
+      <script>var videosrc = $(".video-src");var videocode = $(".video-code");function video() {videocode.html('<video src="' + videosrc.val() + '">')};video();</script>
+    </div>
+</div>
                       <li keywords=" html iframe website frame href link inline component" class="t">
     <div name="com">
         <div class="html uk-card uk-card-default uk-card-hover">
