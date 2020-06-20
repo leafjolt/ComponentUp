@@ -207,7 +207,7 @@
         <div class="html uk-card uk-card-default uk-card-hover">
             <div class="uk-card-body">
               <div class="uk-card-badge uk-label nofilter">HTML</div>
-              <a href="https://bing.com" class="n">
+              <a href="#audio-component-modal" class="n" uk-toggle>
                 <div class="uk-card-media-top nofilter">
                 <img src="pictures/audio.jpg" alt="audio">
             </div>
@@ -216,6 +216,30 @@
     </a>
         </div>
         </li>
+       <div id="audio-component-modal" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-padding-large">
+                <h1>Audio Component</h1>
+              <h3>Generate code to put audio on your site.</h3>
+              <div class="uk-column-1-2@s">
+                <div>
+                  <div class=uk-margin>
+                  <h4>Fill in the fields below.</h4>
+                  <label for="audio-src">Audio Address
+                  <input style="font-family:Courier New !important" type="text" name="audio-src" placeholder="Audio address..." class="uk-input audio-src" oninput="audio()">
+                  </label>
+                  </div>
+                </div>
+                <div>
+                  <h4>Copy the code displayed here.</h4>
+                  <textarea style="font-family: Courier New !important" class="uk-textarea audio-code" name="audio-code" disabled></textarea>
+                </div>
+              </div>
+            </div>
+      <script>var audiosrc = $(".audio-src");var audiocode = $(".audio-code");function audio() {audiocode.html('<audio src="' + audiosrc.val() + '">')};audio();</script>
+    </div>
+</div>
        </div>
      </div>
    </ul>
